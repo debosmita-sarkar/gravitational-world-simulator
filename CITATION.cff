@@ -1,0 +1,62 @@
+cff-version: 1.2.0
+title: >-
+  A Provenance-Audited Gravitational World Simulator Validated
+  Against DE440 with a Formal Predictability Analysis
+message: >-
+  If you use this software or the accompanying paper, please cite it
+  using the metadata below.
+type: software
+authors:
+  - given-names: Debosmita
+    family-names: Sarkar
+    email: debosmitasarkar993@gmail.com
+    affiliation: Independent Researcher, Kolkata, India
+    city: Kolkata
+    country: IN
+repository-code: >-
+  https://github.com/debosmita-sarkar/gravitational-world-simulator
+url: https://debosmitasarkar.site/
+abstract: >-
+  A gravitational N-body world simulator whose every governing rule is a
+  proven law of physics with its derivation attached: no hand-tuned
+  constants, no invented forces. Every numerical constant is bound to a
+  cited source and enforced by an automated provenance audit. The
+  simulator is initialised from real states in NASA JPL's DE440 ephemeris
+  and validated against measured solar-system positions in physical units.
+  It introduces the Fidelity-Limit Theorem, an explicit closed-form
+  predictability horizon binding integrator order, step size, the largest
+  Lyapunov exponent, measurement uncertainty, and tolerance, together with
+  a measurement-ceiling corollary establishing that beyond a computable
+  point, fidelity is limited by the measurement precision of reality,
+  independent of computational effort.
+keywords:
+  - gravitational world simulator
+  - N-body simulation
+  - celestial mechanics
+  - DE440
+  - predictability horizon
+  - Fidelity-Limit Theorem
+  - Lyapunov exponent
+  - Mercury perihelion precession
+  - symplectic integrator
+  - deterministic chaos
+  - provenance audit
+license: MIT
+version: "1.0.0"
+date-released: "2026-07-13"
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.21329246
+    description: Zenodo record for the paper
+preferred-citation:
+  type: article
+  title: >-
+    A Provenance-Audited Gravitational World Simulator Validated
+    Against DE440 with a Formal Predictability Analysis
+  authors:
+    - given-names: Debosmita
+      family-names: Sarkar
+      affiliation: Independent Researcher, Kolkata, India
+  year: 2026
+  doi: 10.5281/zenodo.21329246
+  url: https://doi.org/10.5281/zenodo.21329246
