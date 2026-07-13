@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+.venv/
+.pytest_cache/
+.tools/
+validation/cache/
+# LaTeX build artifacts
+paper/*.aux
+paper/*.log
+paper/*.out
